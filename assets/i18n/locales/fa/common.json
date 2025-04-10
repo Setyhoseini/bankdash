@@ -1,0 +1,38 @@
+{
+    "sidebar": {
+        "Dashboard": "داشبورد",
+        "Transactions": "تراکنش‌ها",
+        "Accounts": "حساب‌ها",
+        "Investments": "سرمایه‌گذاری‌ها",
+        "Credit Cards": "کارت‌های بانکی",
+        "Loans": "قرض‌ها",
+        "Services": "سرویس‌ها",
+        "Settings": "تنظیمات"
+    },
+    "My Cards": "کارت‌های من",
+    "See All": "همه",
+    "Balance": "موجودی",
+    "CARD HOLDER": "دارندۀ کارت",
+    "VALID THRU": "انقضا",
+    "Search for something": "جستجو",
+    "Sat": "شنبه",
+    "Sun": "یکشنبه",
+    "Mon": "دوشنبه",
+    "Tue": "سه‌شنبه",
+    "Wed": "چهارشنبه",
+    "Thu": "پنجشنبه",
+    "Fri": "جمعه",
+    "Withdraw": "برداشت",
+    "Deposit": "سپرده",
+    "Weekly Activity": "فعالیت هفتگی",
+    "Bill Expense": "مخارج قبض",
+    "Others": "سایر",
+    "Investment": "سرمایه‌گذاری",
+    "Entertainment": "سرگرمی",
+    "Expense Statistics": "آمار مخارج",
+    "Recent Transaction": "تراکنش‌های اخیر",
+    "Deposit from my Card": "برداشت از کارت",
+    "Deposit Paypal": "سپرده در پی‌پال",
+    "Overview": "مرور حساب"
+
+}
