@@ -1,0 +1,38 @@
+{
+    "sidebar": {
+        "Dashboard": "Dashboard",
+        "Transactions": "Transactions",
+        "Accounts": "Accounts",
+        "Investments": "Investments",
+        "Credit Cards": "Credit Cards",
+        "Loans": "Loans",
+        "Services": "Services",
+        "Settings": "Settings"
+    },
+    "My Cards": "My Cards",
+    "See All": "See All",
+    "Balance": "Balance",
+    "CARD HOLDER": "CARD HOLDER",
+    "VALID THRU": "VALID THRU",
+    "Search for something": "Search for something",
+    "Sat": "Sat",
+    "Sun": "Sun",
+    "Mon": "Mon",
+    "Tue": "Tue",
+    "Wed": "Wed",
+    "Thu": "Thu",
+    "Fri": "Fri",
+    "Withdraw": "Withdraw",
+    "Deposit": "Deposit",
+    "Weekly Activity": "Weekly Activity",
+    "Bill Expense": "Bill Expense",
+    "Others": "Others",
+    "Investment": "Investment",
+    "Entertainment": "Entertainment",
+    "Expense Statistics": "Expense Statistics",
+    "Recent Transaction": "Recent Transaction",
+    "Deposit from my Card": "Deposit from my Card",
+    "Deposit Paypal": "Deposit Paypal",
+    "Overview": "Overview"
+
+}
