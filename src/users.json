@@ -1,0 +1,98 @@
+[
+   {
+    "id": 1,
+    "email": "example1@gmail.com",
+    "password": "Example_1",
+    "expenseStatistics": [
+        { "amount": 15, "number": 160, "category": "Bill Expense"},
+        { "amount": 35, "number": 145, "category": "Others"},
+        { "amount": 20, "number": 140, "category": "Investment"},
+        { "amount": 30, "number": 150, "category": "Entertainment"}
+    ],
+    "weeklyActivity": [
+        {
+          "day": "Sat",
+          "withdraw": 490,
+          "deposit": 240
+        },
+        {
+          "day": "Sun",
+          "withdraw": 340,
+          "deposit": 130
+        },
+        {
+          "day": "Mon",
+          "withdraw": 310,
+          "deposit": 260
+        },
+        {
+          "day": "Tue",
+          "withdraw": 490,
+          "deposit": 380
+        },
+        {
+          "day": "Wed",
+          "withdraw": 150,
+          "deposit": 220
+        },
+        {
+          "day": "Thu",
+          "withdraw": 395,
+          "deposit": 225
+        },
+        {
+          "day": "Fri",
+          "withdraw": 400,
+          "deposit": 315
+        }
+      ]
+    },
+    {
+    "id": 2,
+    "email": "example2@gmail.com",
+    "password": "Example_2",
+    "expenseStatistics": [
+        { "amount": 25, "number": 160, "category": "Bill Expense"},
+        { "amount": 25, "number": 145, "category": "Others"},
+        { "amount": 30, "number": 140, "category": "Investment"},
+        { "amount": 20, "number": 150, "category": "Entertainment"}
+    ],
+    "weeklyActivity": [
+        {
+          "day": "Sat",
+          "withdraw": 210,
+          "deposit": 240
+        },
+        {
+          "day": "Sun",
+          "withdraw": 150,
+          "deposit": 430
+        },
+        {
+          "day": "Mon",
+          "withdraw": 220,
+          "deposit": 100
+        },
+        {
+          "day": "Tue",
+          "withdraw": 300,
+          "deposit": 50
+        },
+        {
+          "day": "Wed",
+          "withdraw": 475,
+          "deposit": 168
+        },
+        {
+          "day": "Thu",
+          "withdraw": 500,
+          "deposit": 75
+        },
+        {
+          "day": "Fri",
+          "withdraw": 60,
+          "deposit": 400
+        }
+      ]
+    }
+]

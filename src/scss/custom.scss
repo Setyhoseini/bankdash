@@ -1,0 +1,180 @@
+$SASS_SILENCE_DEPRECATION_WARNINGS: true;
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/mixins';
+
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  i: 1px,
+  ii: 2px,
+  iii: 3px,
+  1: .25rem,
+  2: .5rem,
+  3: .75rem,
+  4: 1rem,
+  5: 1.25rem,
+  6: 1.5rem,
+  7: 1.75rem,
+  8: 2rem,
+  9: 2.25rem,
+  10: 2.5rem,
+  11: 2.75rem,
+  12: 3rem,
+  13: 3.25rem,
+  14: 3.5rem,
+  15: 3.75rem,
+  16: 4rem,
+  17: 4.25rem,
+  18: 4.5rem,
+  19: 4.75rem,
+  20: 5rem,
+  21: 5.25rem,
+  22: 5.5rem,
+  23: 5.75rem,
+  24: 6rem,
+  25: 6.25rem,
+  26: 6.5rem,
+  27: 6.75rem,
+  200: 200px,
+  240: 240px,
+  700: 700px,
+);
+
+$grid-columns: 24; // Change from 12 to 24 columns
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter/Inter_18pt-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter/Inter_18pt-Medium.ttf") format("truetype");
+  font-weight: 500;
+}  
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter/Inter_18pt-Regular.ttf") format("truetype");
+  font-weight: 400;
+} 
+
+body {
+  font-family: Inter, sans-serif !important;
+}
+
+$font-sizes: (
+  10: 10px,
+  11: 11px,
+  12: 12px,
+  13: 13px,
+  14: 14px,
+  15: 15px,
+  16: 16px,
+  17: 17px,
+  18: 18px,
+  19: 19px,
+  20: 20px,
+  21: 21px,
+  22: 22px,
+  23: 23px,
+  24: 24px,
+  25: 25px,
+  26: 26px,
+  27: 27px,
+  28: 28px,
+  29: 29px,
+  30: 30px,
+);
+
+$theme-colors: (
+  "primary": #ff5733,
+  "secondary": #6c757d,
+  "info": #17a2b8,
+  "custom-blue": rgba(45, 96, 255, 1),
+  "custom-green": #2ecc71,
+  "border-gray": hsla(204, 43%, 93%, 1),
+  "main-text": hsla(231, 34%, 31%, 1),
+  "main-text-light": hsla(218, 38%, 60%, 1),
+  "searchbar": rgba(245, 247, 250, 1),
+  "menu-item-deselected": rgba(177, 177, 177, 1),
+  "main-section-bg": rgb(245, 247, 250),
+  "section-title": rgba(52, 60, 106, 1),
+  "transaction-section": rgba(35, 35, 35, 1),
+  "transaction-section-light": rgba(113, 142, 191, 1),
+  "transaction-red": rgba(255, 75, 74, 1),
+  "transaction-green": rgba(65, 212, 168, 1),
+);
+$input-placeholder-color: hsla(218, 38%, 60%, 1);
+
+.mainSidebar, .mainSection {
+  min-height: 700px !important;
+  height: 100vh !important;
+}
+
+.mainSection {
+  max-height: 100vh;
+
+}
+
+.offcanvas-menu {
+  width: 300px !important;
+}
+.offcanvas-menu-title {
+  padding: 0;
+}
+
+@media screen and (max-width: 920px) {
+  .mainSidebar { 
+    display: none !important; 
+  }
+  .mainSection { 
+    margin-left: 0 !important; 
+    width: 100% !important;
+  }
+  .menu-icon {
+    display: inline-block !important;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header-options, .desktop-title, .tablet-menu-icon {
+    display: none !important;
+  }
+  .searchbar {
+    min-width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .tablet-menu-icon {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1472px) {
+  .cards {
+    width: 350px;
+    overflow-x: scroll;
+    max-width: 350px;
+    margin: 0;
+  }
+  .cards-inside {
+    width: 730px;
+  }
+}
+
+.input-error {
+  border: 2px solid red;
+}
+.error {
+  color: red;
+  font-size: 12px
+}
+
+@import 'bootstrap/scss/bootstrap';
