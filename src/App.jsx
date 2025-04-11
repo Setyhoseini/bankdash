@@ -33,9 +33,6 @@ function App() {
     return localStorage.getItem('selectedLanguage') || 'en';
   });
 
-  console.log(isLoginPage);
-  
-
   fetch(`/assets/i18n/locales/${lang}/common.json`)
   .then(res => res.json())
   .then(data => {
