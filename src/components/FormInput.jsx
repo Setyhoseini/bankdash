@@ -3,7 +3,6 @@ import React from 'react'
 
 const FormInput = ({label, ...props}) => {
     const [field, meta] = useField(props)
-    console.log("meta", meta);
     
   return (
     <div className='mb-2'>

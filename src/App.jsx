@@ -26,12 +26,15 @@ import { Provider } from 'react-redux';
 import { AuthContext } from './contexts/Authcontext.js';
 
 function App() {
-  const [isLoginPage, setIsLoginPage] = useState(localStorage.getItem('isAuthenticated') === 'false' || location.pathname == '/login');
+  const [isLoginPage, setIsLoginPage] = useState(localStorage.getItem('isAuthenticated') === null || localStorage.getItem('isAuthenticated') === 'false' || location.pathname == '/login');
   const [show, setShow] = useState(false);
   const [ready, setReady] = useState(false);
   const [lang, setLang] = useState(() => {
     return localStorage.getItem('selectedLanguage') || 'en';
   });
+
+  console.log(isLoginPage);
+  
 
   fetch(`/assets/i18n/locales/${lang}/common.json`)
   .then(res => res.json())
